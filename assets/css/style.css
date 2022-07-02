@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgba(182, 183, 181, 0.391);
+}
+
+h1{
+    background-color: rgb(86, 138, 212);
+    height: 4rem;
+    text-align:center;
+    padding-top: 1rem;
+    color: aliceblue;
+}
+
+/* Desafío parte1 */
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#imagen1 {
+    width: 20rem;
+}
+
+/* Desafío parte2 */
+.parte2__stickers {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.parte2__stickers img {
+    width: 9rem;
+    margin: 0 2rem;
+    border: 1px solid gray;
+}
+.parte2__inputstickers {
+    display: flex;
+    justify-content: center;
+}
+.parte2__inputstickers--cantidad {
+    width: 8rem;
+    height: 1.5rem;
+    margin: 1rem 2.5rem;
+}
+.parrafo {
+    color: rgb(82, 80, 80);
+}
+
+/* Desafío parte3 */
+.parte3{
+    height: 15rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: rgb(82, 80, 80);
+}
+.parte3__pass {
+    margin-bottom: 0.5rem;
+}
+.parte3__pass select {
+    font-size: 1rem;
+    margin: 0.2rem 0.rem;
+}
+.button-total {
+    margin-top: 0.8rem;
+    width: 6rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+.parrafo2 {
+    margin-top: 0.5rem;
+    margin-bottom: 5rem;
+    color: rgb(82, 80, 80);
+}
+
+

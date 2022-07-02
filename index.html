@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Karla:wght@500;700&family=Lobster&family=Raleway:wght@300;500&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="contenedor">
+        <!-- Desafío parte1-->
+        <nav>
+            <h1>Desafío Condiciones</h1>
+        </nav>
+        <div class="parte1">
+            <h2>Desafío parte 1</h2>
+            <img id="imagen1" onclick="imgClick()" src="assets/img/sur_1.jpg" alt="" >
+        </div>
+
+        <!-- Desafío parte2-->
+        <div class="parte2">
+            <h2>Desafío parte 2</h2>
+            <p>Puedes llevar 10 stickers en total</p>
+            <div class="parte2__stickers">
+                <img src="assets/img/araucaria.png" alt="">
+                <img src="assets/img/copihue.jpg" alt="">
+                <img src="assets/img/volcan.jpg" alt="">
+            </div>
+
+            <div class="parte2__inputstickers">
+                <input id="input1" class="parte2__inputstickers--cantidad" type="number" min="0" placeholder="Nro stickers">
+                <input id="input2" class="parte2__inputstickers--cantidad" type="number" min="0" placeholder="Nro stickers">
+                <input id="input3" class="parte2__inputstickers--cantidad" type="number" min="0" placeholder="Nro stickers">
+            </div>
+
+            <p class="parrafo" id="txt_resultado"> </p> 
+
+            <button onclick="calcular()" class="button-total" type="button" value="verificar">Verificar </button> 
+        </div>
+
+        <!-- Desafío parte3-->
+        <div class="parte3">
+            <h2>Desafío parte 3</h2>
+            <h4 class parrafo_pass> Ingrese el password</h4>
+            <div class="parte3__pass">
+                <select name="dig" id="pass1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="dig" id="pass2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="dig" id="pass3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+
+            <button onclick="verificarpass()" class="button-total" type="button" value="ingresar">Ingresar </button> 
+            
+            <p class="parrafo2" id="pass_resultado"> </p> 
+        
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
